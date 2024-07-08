@@ -1,30 +1,40 @@
-**Hi there, I'm Aniket Bakre 👋** <br>
+Hello! I'm Aniket Bakre, a dedicated and innovative professional with a rich background in engineering and a specialized focus in data science. Over the course of my career, I've garnered over 7 years of industry experience, with the last 2 years dedicated to data science projects, where I've leveraged cutting-edge technology to drive significant results. 🚀
 
-I am an enthusiastic learner and passionate about exploring new things, especially in the field of Data Science. <br>
-Currently, I am focused on learning AI and ML to advance my skills in this area. <br> 
-I have a Bachelor's degree in Mechanical Engineering, a Master's in Business Management (Marketing), and a Master's in AI through Inside AIML.
+**Professional Journey:**
 
-**About Me:🙋‍**<br>
-🔭 I am changing my career from Design Engineering to AI to pursue my interest in this field.<br>
-🌱 I am constantly learning and seeking new challenges to enhance my skills.<br>
-👯 I am looking for collaborations and opportunities to work on exciting projects in Data Science and AI.<br>
-📫 You can reach me at "aniketbakre1291@gmail.com" if you have any questions, opportunities or just want to say hello.<br>
+- **Design Engineer at Cyient LTD.:** 
+Developed innovative tools to assist in daily time-consuming tasks, including:
+  - An NLP-based English to Russian translator, reducing translation time by 30% 🌐
+  - A project management chatbot for project summary and information, improving project tracking efficiency by 25% 💬
+  - A Power BI dashboard for enhanced reporting, increasing reporting accuracy and speed by 40% 📊
+  - A question-answering bot for safety standards, enhancing compliance response time by 25% ⚠️
+  These initiatives significantly improved my overall efficiency and communication within the team.
 
-**Skills:🛠️**    
-🐍Python <br>
-🤖Machine Learning  <br>
-🧠Deep Learning <br>
-📊Data Analysis <br>
-📈Data Visualization <br> etc.
+- **Data Scientist Intern at Ambrapali Electrotech Pvt Ltd:** 
+Conducted data regression analysis that boosted prediction accuracy by 23%, utilized web scraping for competitor data, developed machine learning models for employee attrition, and enhanced data warehousing to increase work allocation efficiency by 20% 📈
 
-**Education:🎓**<br>
-Bachelor's degree in Mechanical Engineering<br>
-Master's in Business Management (Marketing)<br>
-Master's in AI through Inside AIML<br>
+**Educational Background:**
 
-Thank you 🙏 for taking the time to read my profile. I look forward to connecting with you!
+- MBA in Marketing from SVKM's NMIMS, Mumbai 🎓
+- Master’s in Data Science Certification from Inside AIML 📚
+- Mechanical Engineering degree from Mumbai University 🛠️
+- Diploma in Automobile Engineering from NPK, Kolhapur 🚗
 
-<!---
-aniketbakre/aniketbakre is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+**Key Skills:**
+
+- Machine Learning 🤖
+- Deep Learning 🧠
+- Natural Language Processing (NLP) 📝
+- Data Pre-processing 📊
+- SQL (Basic) 📂
+- Power BI 📈
+- Project Management 📅
+- Predictive Modelling 📉
+- Python 🐍
+
+**Certifications:**
+
+- Natural Language Processing Specialization by DeepLearning.AI 🌐
+- Machine Learning Specialization by DeepLearning.AI 🤖
+
+I'm passionate about using data science to solve complex problems and create impactful solutions. My projects reflect a deep understanding of machine learning, data visualization, and natural language processing, which I continually develop through ongoing learning and hands-on experience. 🌟
