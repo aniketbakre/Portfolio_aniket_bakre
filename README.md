@@ -2,7 +2,7 @@ Hello! I'm Aniket Bakre, a dedicated and innovative professional with a rich bac
 
 **Professional Journey:**
 
-- **Design Engineer at Cyient LTD.:** 
+- **Design Engineer at Cyient LTD.:** <br>
 Developed innovative tools to assist in daily time-consuming tasks, including:
   - An NLP-based English to Russian translator, reducing translation time by 30% 🌐
   - A project management chatbot for project summary and information, improving project tracking efficiency by 25% 💬
@@ -10,7 +10,7 @@ Developed innovative tools to assist in daily time-consuming tasks, including:
   - A question-answering bot for safety standards, enhancing compliance response time by 25% ⚠️
   These initiatives significantly improved my overall efficiency and communication within the team.
 
-- **Data Scientist Intern at Ambrapali Electrotech Pvt Ltd:** 
+- **Data Scientist Intern at Ambrapali Electrotech Pvt Ltd:**<br>
 Conducted data regression analysis that boosted prediction accuracy by 23%, utilized web scraping for competitor data, developed machine learning models for employee attrition, and enhanced data warehousing to increase work allocation efficiency by 20% 📈
 
 **Educational Background:**
