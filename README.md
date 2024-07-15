@@ -1,13 +1,12 @@
-Hello! I'm Aniket Bakre, a dedicated and innovative professional with a rich background in engineering and a specialized focus in data science. Over the course of my career, I've garnered over 7 years of industry experience, with the last 2 years dedicated to data science projects, where I've leveraged cutting-edge technology to drive significant results. 🚀
+Hello! I'm Aniket Bakre, a dedicated and innovative professional with a rich background in engineering and a specialized focus in data science. Over the course of my career, I've garnered over 7 years of industry experience, with the last 1+ years dedicated to data science projects, where I've leveraged cutting-edge technology to drive significant results. 🚀
 
 **Professional Journey:**
 
 - **Design Engineer at Cyient LTD.:** <br>
-Developed innovative tools to assist in daily time-consuming tasks, including:
+Developed innovative tools to easy my  daily time-consuming tasks, including:
   - An NLP-based English to Russian translator, reducing translation time by 30% 🌐
-  - A project management chatbot for project summary and information, improving project tracking efficiency by 25% 💬
+  - A project management chatbot for project summary and information, improving my project tracking efficiency by 25% 💬
   - A Power BI dashboard for enhanced reporting, increasing reporting accuracy and speed by 40% 📊
-  - A question-answering bot for safety standards, enhancing compliance response time by 25% ⚠️
   These initiatives significantly improved my overall efficiency and communication within the team.
 
 - **Data Scientist Intern at Ambrapali Electrotech Pvt Ltd:**<br>
