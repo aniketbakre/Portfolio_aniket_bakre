@@ -1,0 +1,257 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('C:/Users/Aniket/Desktop/Projects/Profile/images/smooth_back.jpg');
+    background-size: cover;
+    background-position: 100% 100%;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.0); /* Light transparent glossy */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+/* Navigation styles */
+nav {
+    margin: 0px auto 0;
+    position: center;
+    width: 100%; /* Adjusted width to accommodate logos */
+    height: 50px;
+    background-color: rgba(52, 73, 94, 0.9); /* Light transparent glossy */
+    border-radius: 8px;
+    font-size: 20;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px; /* Padding for spacing */
+    transition: opacity 0.5s; /* Transition for hover effect */
+}
+
+/* Logo container styles */
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container img {
+    width: 35px; /* Adjust size as needed */
+    height: 35px; /* Adjust size as needed */
+    margin-right: 20px; /* Space between logos */
+    border-radius: 50; /* Ensure logos are not rounded */
+    opacity: 0.8; /* Make logos slightly transparent for glossy effect */
+    transition: opacity 0.3s; /* Transition for hover effect */
+}
+
+.logo-container img:hover {
+    opacity: 1; /* Fully opaque on hover */
+    box-shadow: 0 0 10px rgba(59, 56, 226, 0.7), /* Add glow effect */
+                0 0 20px rgba(255, 255, 255, 0.7), 
+                0 0 30px rgba(255, 255, 255, 0.7), 
+                0 0 40px rgb(252, 252, 252);
+}
+
+.logo-container img:hover {
+    opacity: 1; /* Fully opaque on hover */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: left;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    /* text-shadow: 0 0 5px rgba(255, 255, 255, 0.5),
+    0 0 10px rgba(255, 255, 255, 0.5), 
+    0 0 15px rgba(255, 255, 255, 0.5), 
+    0 0 20px rgba(255, 255, 255, 0.5); */
+}
+
+nav ul li a:hover {
+    color: #ffffe0; /* Slightly lighter color on hover */
+    text-shadow: 0 0 10px rgba(59, 56, 226, 0.7), /* Add glow effect */
+                 0 0 20px rgba(255, 255, 255, 0.7), 
+                 0 0 30px rgba(255, 255, 255, 0.7), 
+                 0 0 40px rgb(252, 252, 252);
+}
+
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    text-align: left;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.home-content {
+    flex: 1;
+}
+
+.photo {
+    margin-left: 0;
+}
+
+.photo img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-style: outset;
+    transform: translate(10px, -20px);
+}
+
+.home-content h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+    color: rgb(255, 255, 255);
+}
+
+.home-content h1 span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.3em;
+    color: #9097ffc0;
+}
+
+.home-content h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    color: #ffffff;
+}
+
+.home-content p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    color: rgb(255, 255, 255);
+}
+
+/* About Section Styles */
+#about-me {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically on smaller screens */
+    align-items: center;
+    padding: 100px 50px; /* Adjusted padding */
+    background: rgba(255, 255, 255, 0.5); /* Slightly less transparent */
+    margin-top: 60px; /* To avoid overlap with fixed header */
+}
+
+
+
+
+#about-me .content {
+    display: flex;
+    flex-direction: column; /* Stack text and image vertically */
+    align-items: center;
+    width: 100%;
+    max-width: 1200px; /* Limit the width for better readability */
+    text-align: center;
+}
+
+.text {
+    margin-bottom: 20px; /* Space between text and image */
+}
+
+.text h1 {
+    font-size: 2.5em;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.text p {
+    font-size: 1.2em;
+    color: rgb(255, 255, 255);
+    line-height: 1.6; /* Improve readability */
+    margin-bottom: 20px; /* Space below paragraphs */
+}
+
+.photo {
+    display: flex;
+    justify-content: center;
+}
+
+.photo img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%; /* Circular image */
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+}
+
+
+
+
+/* Project Section Styles */
+#projects {
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project-name {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    position: relative;
+    padding: 10px;
+    background-color: #34495e;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.project-name:hover {
+    background-color: #2c3e50;
+}
+
+.project-links {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #34495e;
+    border-radius: 8px;
+    padding: 10px;
+    z-index: 1000;
+}
+
+.project-name:hover .project-links {
+    display: block;
+}
+
+.project-links a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 5px 0;
+}
+
+.project-links a:hover {
+    text-decoration: underline;
+}
