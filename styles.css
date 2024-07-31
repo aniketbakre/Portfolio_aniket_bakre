@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-image: url('C:/Users/Aniket/Desktop/Projects/Profile/images/smooth_back.jpg');
+    background-color: #1f2a36;
     background-size: cover;
     background-position: 100% 100%;
 }
@@ -105,17 +106,19 @@ nav ul li a:hover {
 }
 
 .photo {
-    margin-left: 0;
+    display: flex;
+    justify-content: center;
 }
 
 .photo img {
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-    border-top-right-radius: 40px;
-    border-bottom-left-radius: 40px;
-    border-style: outset;
-    transform: translate(10px, -20px);
+    width: 400px;
+    height: 400px;
+    object-fit: fill;
+    border-radius: 70%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(252, 252, 253, 0.596);
+    box-shadow: 0 0 15px rgb(214, 207, 207);
 }
 
 .home-content h1 {
@@ -146,112 +149,400 @@ nav ul li a:hover {
     color: rgb(255, 255, 255);
 }
 
+/* Resume Button Styles */
+.resume-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+    background-color: #34495e; /* Original color */
+    border: none;
+    border-radius: 25px; /* Fully rounded button */
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.resume-button:hover {
+    background-color: #2c3e50; /* Hover color */
+    transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
 /* About Section Styles */
 #about-me {
     display: flex;
     flex-direction: column; /* Stack elements vertically on smaller screens */
     align-items: center;
     padding: 100px 50px; /* Adjusted padding */
-    background: rgba(255, 255, 255, 0.5); /* Slightly less transparent */
     margin-top: 60px; /* To avoid overlap with fixed header */
 }
 
 
-
-
-#about-me .content {
+.about-section {
     display: flex;
-    flex-direction: column; /* Stack text and image vertically */
-    align-items: center;
-    width: 100%;
-    max-width: 1200px; /* Limit the width for better readability */
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    height: 100vh;
+    padding-top: 200px;
+}
+
+.about-tiles {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    padding-top: 150px;
+}
+
+.tile {
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    cursor: pointer;
     text-align: center;
+    transition: background-color 0.3s;
 }
 
-.text {
-    margin-bottom: 20px; /* Space between text and image */
+.tile:hover {
+    background-color: whitesmoke; /* Hover color */
+    transform: translateY(-2px); /* Slight lift effect on hover */
+    color: #ffffe0;
 }
 
-.text h1 {
-    font-size: 2.5em;
-    color: rgb(255, 255, 255);
-    margin-bottom: 20px; /* Space below the heading */
+.tile.active {
+    background-color: rgba(255, 255, 255, 0.87);
 }
 
-.text p {
+.tile.inactive {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.about-content {
+    width: 75%;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+
+}
+
+.content {
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    display: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
     font-size: 1.2em;
-    color: rgb(255, 255, 255);
-    line-height: 1.6; /* Improve readability */
-    margin-bottom: 20px; /* Space below paragraphs */
+    color: #ffffff;
+    padding: 100px 50px; /* Adjusted padding */
+    margin-top: 60px; /* To avoid overlap with fixed header */
 }
 
-.photo {
-    display: flex;
-    justify-content: center;
+.content.active {
+    display: block;
 }
 
-.photo img {
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 50%; /* Circular image */
-    border-style: solid;
-    border-width: 5px;
-    border-color: rgba(255, 255, 255, 0.8);
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+.profile-photo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
 }
 
+h3 {
+    margin-top: 0;
+}
 
+ul {
+    padding-left: 20px;
+}
 
+p {
+    margin: 0;
+}
 
 /* Project Section Styles */
+
 #projects {
     padding: 50px;
-    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 200px;
 }
 
+ .projects-heading {
+    font-size: 2em;
+    font-weight: bold;
+    color: #ffffff;
+    text-align:center;
+    
+ } 
 .project {
+    background-color: #34495e;
+    border-radius: 8px;
+    width: 30%;
     margin-bottom: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+    padding-top: 0px;
+
 }
 
 .project-name {
     font-size: 1.5em;
     font-weight: bold;
-    color: black;
-    cursor: pointer;
-    position: relative;
-    padding: 10px;
-    background-color: #34495e;
-    border-radius: 8px;
-    transition: background-color 0.3s;
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
 }
 
-.project-name:hover {
-    background-color: #2c3e50;
+.description {
+    margin-bottom: 20px;
+    color: white;
 }
 
 .project-links {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: #34495e;
-    border-radius: 8px;
-    padding: 10px;
-    z-index: 1000;
-}
-
-.project-name:hover .project-links {
-    display: block;
+    display: flex;
+    justify-content: space-between;
 }
 
 .project-links a {
     display: block;
     color: white;
     text-decoration: none;
-    padding: 5px 0;
+    padding: 10px;
+    background-color: #2c3e50;
+    border-radius: 8px;
+    width: 45%;
+    text-align: center;
+    transition: background-color 0.3s;
 }
 
 .project-links a:hover {
     text-decoration: underline;
+    background-color: #1f2a36;
 }
+
+
+
+
+/* Contact Details Section Styles */
+#contact {
+    background-color: #2c3e50;
+    display: inline;
+    height: 100vh; /* Full viewport height */
+}
+
+.contact-heading {
+    font-size: 2em;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    background-color: #8190b8a1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 60%;
+}
+
+.contact-item img {
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+}
+
+.contact-item span {
+    font-size: 1.2em;
+    color: #34495e;
+}
+
+.contact-item a {
+    text-decoration: none;
+    color: #34495e;
+    transition: color 0.3s;
+}
+
+.contact-item a:hover {
+    color: #2c3e50;
+}
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+.contact .info-box {
+    color: #444444;
+    padding: 20px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.08);
+  }
+  
+  .contact .info-box i.bx {
+    font-size: 24px;
+    color: #18d26e;
+    border-radius: 50%;
+    padding: 14px;
+    float: left;
+    background: rgba(255, 255, 255, 0.1);
+  }
+  
+  .contact .info-box h3 {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 700;
+    margin: 10px 0 8px 68px;
+  }
+  
+  .contact .info-box p {
+    padding: 0;
+    color: #fff;
+    line-height: 24px;
+    font-size: 14px;
+    margin: 0 0 0 68px;
+  }
+  
+  .contact .info-box .social-links {
+    margin: 5px 0 0 68px;
+    display: flex;
+  }
+  
+  .contact .info-box .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    color: #fff;
+    line-height: 1;
+    margin-right: 12px;
+    transition: 0.3s;
+  }
+  
+  .contact .info-box .social-links a:hover {
+    color: #18d26e;
+  }
+  
+  .contact .php-email-form {
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.08);
+  }
+  
+  .contact .php-email-form .error-message {
+    display: none;
+    background: rgba(255, 255, 255, 0.08);
+    background: #ed3c0d;
+    text-align: left;
+    padding: 15px;
+    font-weight: 600;
+  }
+  
+  .contact .php-email-form .error-message br+br {
+    margin-top: 25px;
+  }
+  
+  .contact .php-email-form .sent-message {
+    display: none;
+    background: rgba(255, 255, 255, 0.08);
+    background: #18d26e;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+  }
+  
+  .contact .php-email-form .loading {
+    display: none;
+    background: rgba(255, 255, 255, 0.08);
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .contact .php-email-form .loading:before {
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    margin: 0 10px -6px 0;
+    border: 3px solid #18d26e;
+    border-top-color: #eee;
+    animation: animate-loading 1s linear infinite;
+  }
+  
+  .contact .php-email-form input,
+  .contact .php-email-form textarea {
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+    background: rgba(255, 255, 255, 0.08);
+    border: 0;
+    transition: 0.3s;
+    color: #fff;
+  }
+  
+  .contact .php-email-form input:focus,
+  .contact .php-email-form textarea:focus {
+    background-color: rgba(255, 255, 255, 0.11);
+  }
+  
+  .contact .php-email-form input::-moz-placeholder,
+  .contact .php-email-form textarea::-moz-placeholder {
+    color: rgba(255, 255, 255, 0.3);
+    opacity: 1;
+  }
+  
+  .contact .php-email-form input::placeholder,
+  .contact .php-email-form textarea::placeholder {
+    color: rgba(255, 255, 255, 0.3);
+    opacity: 1;
+  }
+  
+  .contact .php-email-form input {
+    padding: 10px 15px;
+  }
+  
+  .contact .php-email-form textarea {
+    padding: 12px 15px;
+  }
+  
+  .contact .php-email-form button[type=submit] {
+    background: #18d26e;
+    border: 0;
+    padding: 10px 30px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 4px;
+  }
+  
+  .contact .php-email-form button[type=submit]:hover {
+    background: #15bb62;
+  }
+  
+  @keyframes animate-loading {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  

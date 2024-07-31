@@ -13,7 +13,6 @@
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about-me">About Me</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#blogs">Blogs</a></li>
                 <li><a href="#contact">Contact Details</a></li>
             </ul>
             <div class="logo-container">
@@ -40,43 +39,154 @@
             <p>Thank you for visiting my profile. I'm happy to share more about myself..</p> 
             <p>Please feel free to explore the "About" section or continue scrolling for additional details.</p>
             <p>Wishing you a wonderful day!</p>
+            <!-- New Resume Button -->
+            <a href="C:/Users/Aniket/Desktop/Projects/Profile/resume.pdf" class="resume-button" target="_blank">My Resume</a>
         </div>
         <div class="photo">
-            <img src="C:/Users/Aniket/Desktop/Projects/Profile/images/img_col.jpg" alt="Aniket Bakre">
+            <img src="C:/Users/Aniket/Desktop/Projects/Profile/images/img_col.png" alt="Aniket Bakre">
         </div>
     </section>
-    <section id="about-me">
+    <section id="about" class="about-section">
+        <div class="about-tiles">
+            <div class="tile" onclick="showContent('about-me')">About Me</div>
+            <div class="tile" onclick="showContent('professional-journey')">Professional Journey</div>
+            <div class="tile" onclick="showContent('educational-background')">Educational Background</div>
+            <div class="tile" onclick="showContent('key-skills')">Key Skills</div>
+            <div class="tile" onclick="showContent('certifications')">Certifications</div>
+            <div class="tile" onclick="showContent('final-words')">Final words</div>
+        </div>
         <div class="about-content">
-            <div class="about-text">
-                <h1>About Me</h1>
-                <p><strong>Introduction:</strong> My name is Aniket Bakre, a Mechanical Engineer turned Data Scientist. I specialize in data science, natural language processing (NLP), and machine learning.</p>
-                <p><strong>Professional Summary:</strong> With over 7 years of industry experience, including 2 years in data science, I have developed expertise in building models, data preprocessing, and data visualization. My approach to solving business problems involves leveraging AI and NLP to provide innovative and efficient solutions.</p>
+            <img src="C:/Users/Aniket/Desktop/Projects/Profile/images/aniket_bakre.png" alt="Profile Photo" class="profile-photo">
+            <div id="about-me" class="content">
+                <h3>Hello!</h3>
+                <p>I'm Aniket Bakre, a dedicated and innovative professional with a rich background in engineering and a specialized focus in data science.<br> 
+                   Over the course of my career, I've garnered over 7 years of industry experience, with the last 2 years dedicated to data science projects,<br>  
+                   where I've leveraged cutting-edge technology to drive significant results.</p>
             </div>
-            <!-- <div class="about-photo">
-                <img src="C:/Users/Aniket/Desktop/Projects/Profile/images/img_col.jpg" alt="Aniket Bakre">
-            </div> -->
+            <div id="professional-journey" class="content">
+                <h3>Design Engineer at Cyient LTD.:</h3>
+                <ul>
+                    <li>An NLP-based English to Russian translator, reducing translation time by 30%</li>
+                    <li>A project management chatbot for project summary and information, improving project tracking efficiency by 25%</li>
+                    <li>A Power BI dashboard for enhanced reporting, increasing reporting accuracy and speed by 40%</li>
+                    <li>A question-answering bot for safety standards, enhancing compliance response time by 25%</li>
+                </ul>
+                <h3>Data Scientist Intern at Ambrapali Electrotech Pvt Ltd:</h3>
+                <ul>
+                    <li>Conducted data regression analysis that boosted prediction accuracy by 23%</li>
+                    <li>Utilized web scraping for competitor data</li>
+                    <li>Developed machine learning models for employee attrition</li>
+                    <li>Enhanced data warehousing to increase work allocation efficiency by 20%</li>
+                </ul>
+            </div>
+            <div id="educational-background" class="content">
+                <h3>Educational Background:</h3>
+                <ul>
+                    <li>MBA in Marketing from SVKM's NMIMS, Mumbai</li>
+                    <li>Master’s in Data Science Certification from Inside AIML</li>
+                    <li>Mechanical Engineering degree from Mumbai University</li>
+                    <li>Diploma in Automobile Engineering from NPK, Kolhapur</li>
+                </ul>
+            </div>
+            <div id="key-skills" class="content">
+                <h3>Key Skills:</h3>
+                <ul>
+                    <li>Machine Learning</li>
+                    <li>Deep Learning</li>
+                    <li>Natural Language Processing (NLP)</li>
+                    <li>Data Pre-processing</li>
+                    <li>SQL (Basic)</li>
+                    <li>Power BI</li>
+                    <li>Project Management</li>
+                    <li>Predictive Modelling</li>
+                    <li>Python</li>
+                </ul>
+            </div>
+            <div id="certifications" class="content">
+                <h3>Certifications:</h3>
+                <ul>
+                    <li>Natural Language Processing Specialization by DeepLearning.AI</li>
+                    <li>Machine Learning Specialization by DeepLearning.AI</li>
+                </ul>
+            </div>
+            <div id="final-words" class="content">
+                <h3>Final Words:</h3>
+                <p>I'm passionate about using data science to solve complex problems and create impactful solutions. My projects reflect a deep understanding of machine learning, data visualization, and natural language processing, which I continually develop through ongoing learning and hands-on experience.</p>
+            </div>
         </div>
     </section>
     <section id="projects">
         <div class="project">
-            <div class="project-name">
-                <span>Project 1</span>
-                <div class="project-links">
-                    <a href="https://medium.com/project-1-blog" target="_blank">Blog</a>
-                    <a href="https://github.com/aniketbakre/project-1" target="_blank">GitHub</a>
-                </div>
+            <div class="project-name">Project 1</div>
+            <div class="description">Description of Project 1</div>
+            <div class="project-links">
+                <a href="https://github.com/aniketbakre/project-1" target="_blank">GitHub</a>
+                <a href="https://medium.com/project-1-blog" target="_blank">Blog</a>
             </div>
         </div>
         <div class="project">
-            <div class="project-name">
-                <span>Project 2</span>
-                <div class="project-links">
-                    <a href="https://medium.com/project-2-blog" target="_blank">Blog</a>
-                    <a href="https://github.com/aniketbakre/project-2" target="_blank">GitHub</a>
-                </div>
+            <div class="project-name">Project 2</div>
+            <div class="description">Description of Project 2</div>
+            <div class="project-links">
+                <a href="https://github.com/aniketbakre/project-2" target="_blank">GitHub</a>
+                <a href="https://medium.com/project-2-blog" target="_blank">Blog</a>
             </div>
         </div>
-        <!-- Add more projects as needed -->
+        <div class="project">
+            <div class="project-name">Project 3</div>
+            <div class="description">Description of Project 3</div>
+            <div class="project-links">
+                <a href="https://github.com/aniketbakre/project-3" target="_blank">GitHub</a>
+                <a href="https://medium.com/project-3-blog" target="_blank">Blog</a>
+            </div>
+        </div>
+        <div class="project">
+            <div class="project-name">Project 4</div>
+            <div class="description">Description of Project 4</div>
+            <div class="project-links">
+                <a href="https://github.com/aniketbakre/project-4" target="_blank">GitHub</a>
+                <a href="https://medium.com/project-4-blog" target="_blank">Blog</a>
+            </div>
+        </div>
+        <div class="project">
+            <div class="project-name">Project 5</div>
+            <div class="description">Description of Project 5</div>
+            <div class="project-links">
+                <a href="https://github.com/aniketbakre/project-5" target="_blank">GitHub</a>
+                <a href="https://medium.com/project-5-blog" target="_blank">Blog</a>
+            </div>
+        </div>
+        <div class="project">
+            <div class="project-name">Project 6</div>
+            <div class="description">Description of Project 6</div>
+            <div class="project-links">
+                <a href="https://github.com/aniketbakre/project-6" target="_blank">GitHub</a>
+                <a href="https://medium.com/project-6-blog" target="_blank">Blog</a>
+            </div>
+        </div>
     </section>
+    
+    
+    <!-- for interactive about section -->
+    <script>
+        function showContent(id) {
+            const tiles = document.querySelectorAll('.tile');
+            const contents = document.querySelectorAll('.content');
+    
+            // Hide all content sections and set all tiles to inactive
+            contents.forEach(content => content.style.display = 'none');
+            tiles.forEach(tile => tile.classList.add('inactive'));
+    
+            // Show the selected content section and set the corresponding tile to active
+            document.getElementById(id).style.display = 'block';
+            document.querySelector(`.tile[onclick*="${id}"]`).classList.remove('inactive');
+            document.querySelector(`.tile[onclick*="${id}"]`).classList.add('active');
+        }
+    
+        // Set default content to show
+        document.addEventListener('DOMContentLoaded', () => {
+            showContent('about-me'); // Show the 'About Me' section by default
+        });
+    </script>
 </body>
 </html>
